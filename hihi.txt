@@ -1,0 +1,4 @@
+hihi do ngok
+$myfile = fopen("hihi.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("hihi.txt"));
+fclose($myfile);
